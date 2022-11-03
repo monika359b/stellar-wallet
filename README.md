@@ -109,4 +109,5 @@ See [projects 🎯](https://github.com/CardanoSolutions/ogmios/projects).
 
 <p align="center"><a href="https://github.com/cardanosolutions/ogmios/blob/master/LICENSE"><img src=".github/license.svg" alt="license=MPL-2.0" /></a></p>
 #   c a r d a n o  
+ #   c a r d a n o  
  

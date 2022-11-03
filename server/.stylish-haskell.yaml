@@ -1,0 +1,60 @@
+# Stylish-haskell configuration file
+#
+# See `stylish-haskell --defaults` or
+# https://github.com/jaspervdj/stylish-haskell/blob/master/data/stylish-haskell.yaml
+# for usage.
+
+language_extensions: &default-extensions
+- BangPatterns
+- BinaryLiterals
+- ConstraintKinds
+- DataKinds
+- DefaultSignatures
+- DeriveDataTypeable
+- DeriveFoldable
+- DeriveFunctor
+- DeriveGeneric
+- DeriveTraversable
+- EmptyDataDecls
+- ExistentialQuantification
+- FlexibleContexts
+- FlexibleInstances
+- FunctionalDependencies
+- GADTs
+- InstanceSigs
+- KindSignatures
+- LambdaCase
+- MultiParamTypeClasses
+- MultiWayIf
+- NamedFieldPuns
+- NoImplicitPrelude
+- NumericUnderscores
+- OverloadedStrings
+- PartialTypeSignatures
+- PatternGuards
+- RankNTypes
+- ScopedTypeVariables
+- StandaloneDeriving
+- TupleSections
+- TypeFamilies
+- TypeSynonymInstances
+- ViewPatterns
+
+columns: 0
+steps:
+  - imports:
+      align: none
+      list_align: new_line
+      long_list_align: multiline
+      empty_list_align: inherit
+      list_padding: 4
+      pad_module_names: false
+      separate_lists: true
+      space_surround: true
+      post_qualify: false
+      group_imports: false
+
+  - language_pragmas:
+      align: false
+      remove_redundant: true
+      style: vertical
